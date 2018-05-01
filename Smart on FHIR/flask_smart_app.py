@@ -88,7 +88,7 @@ def index():
     else:
         auth_url = smart.authorize_url
         if auth_url is not None:
-            body += """<p>Please <a href="{0}">authorize</a>.</p>""".format(auth_url)im
+            body += """<p>Please <a href="{0}">authorize</a>.</p>""".format(auth_url)
         else:
             body += """<p>Running against a no-auth server, nothing to demo here. """
         body += """<p><a href="/reset" style="font-size:small;">Reset</a></p>"""
