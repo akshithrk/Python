@@ -8,7 +8,6 @@ from flask import Flask, request, redirect, session
 # app setup
 smart_defaults = {
     'app_id': 'my_web_app',
-    # currently pointing to tye 3 server but to use the default i.e. 2
     'api_base': 'https://sb-fhir-stu3.smarthealthit.org/smartstu3/data',
     'redirect_uri': 'http://localhost:8000/fhir-app/',
 }
@@ -100,7 +99,7 @@ def index():
 def callback():
     """ OAuth2 callback interception.
     """
-    #AK: so may be its the call back that controls the auth intervention as mentioned in the above commebted lines 
+    
     '''
     xxxxxxxxxxxxxx control auth
     '''
