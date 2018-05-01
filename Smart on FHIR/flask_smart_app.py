@@ -100,7 +100,7 @@ def index():
 def callback():
     """ OAuth2 callback interception.
     """
-    
+    #AK: so may be its the call back that controls the auth intervention as mentioned in the above commebted lines 
     '''
     xxxxxxxxxxxxxx control auth
     '''
